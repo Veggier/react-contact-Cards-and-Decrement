@@ -32,10 +32,24 @@ class App extends Component{
   render(){
     return(
     <>
-    <ContactCard name="jiang123"
+    <ContactCard 
+      name="jiang"
+      mobile="123456789"
+      work="8000022222"
+      email="jiang@gmail.com"
      />
-    <ContactCard />
-    <ContactCard />
+      <ContactCard 
+      name="lee"
+      mobile="12214126789"
+      work="802342522"
+      email="leas@gmail.com"
+     />
+      <ContactCard 
+      name="tim"
+      mobile="12312789"
+      work="8000213e22"
+      email="lsfas@gmail.com"
+     />
     <Decrement start={5}/>
       {/* <HelloWorld />
       <HelloWorld1 name="Jiang"/>
